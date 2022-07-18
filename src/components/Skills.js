@@ -5,7 +5,7 @@ import meter1 from '../assets/img/java.svg';
 import meter2 from '../assets/img/react.svg';
 import meter3 from '../assets/img/javascript.svg';
 import cImg from '../assets/img/c.svg';
-import colorSharp from '../assets/img/color-sharp.png'
+import { CashCoin } from 'react-bootstrap-icons';
 
 export const Skills= () => {
     const responsive = {
@@ -37,7 +37,7 @@ export const Skills= () => {
                         <h2>
                             Skills
                         </h2>
-                        <p>I gotta range of skillz just trust me</p>
+                        <p>I've got a range of skillz just trust me <CashCoin size={25} /></p>
                         <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                             <div className='item'>
                                 <img src={meter1} alt='Image' />

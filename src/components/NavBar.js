@@ -49,7 +49,9 @@ export const NavBar = () => {
               <a href="#"><img src={navIcon2} alt="" /></a>
               <a href="#"><img src={navIcon3} alt="" /></a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}><span>Let’s Connect</span></button>
+            <a href="https://github.com/gantonette">
+            <button className="vvd"><span>github</span></button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>

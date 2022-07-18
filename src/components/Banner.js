@@ -57,8 +57,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">welcome to my portfolio!</span>
                 <h1>{`Hello! I'm Gayle: `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Computer Science Student", "Cyber Security Student" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Computer Science and Information Systems student at VUW!</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <p>Computer Science and Information Systems student at VUW! </p>
+                  <button>Check out my projects on git! <a href="https://github.com/gantonette"><ArrowRightCircle size={25} /></a></button>
               </div>}
             </TrackVisibility>
           </Col>
