@@ -8,6 +8,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import projectBasic from "../assets/img/projectBasic.png";
 import projectPort from "../assets/img/projectPort.png";
 import projectCalc from "../assets/img/projectCalc.png";
+import project226 from "../assets/img/project226.png";
 
 
 
@@ -19,19 +20,24 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Basic Collection of Calculators",
-      description: "Design & Development",
-      imgUrl: projectBasic,
+      title: "Personal Web Profile",
+      description: "THIS beautiful specimen. Made with React + Bootstrap",
+      imgUrl: projectPort,
     },
     {
-      title: "Personal Web Profile",
-      description: "THIS beautiful specimen. Made with React, Bootstrap, and CSS.",
-      imgUrl: projectPort,
+      title: "Course Assignment App Board",
+      description: "Full Stack group project for INFO226 (currently in progress)",
+      imgUrl: project226,
     },
     {
       title: "Weightiply",
       description: "Weight related calculator using React + Bootstrap",
       imgUrl: projectCalc,
+    },
+    {
+      title: "Basic Collection of Calculators",
+      description: "Design & Development",
+      imgUrl: projectBasic,
     },
    
   ];
@@ -45,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Humble beginnings... <Box2HeartFill size={25} /></p>
+                <p>My projects! <Box2HeartFill size={25} /></p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
